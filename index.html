@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Seu Decodificador</title>
+</head>
+<body>
+    <header></header>
+    <main class="conteudo">
+        <section class="conteudo__left">
+            <input class="conteudo__input" type="text" placeholder="Digite o seu texto">
+            <p class="mensagem__input">Apenas letras minúsculas e sem acento.</p>
+            <div class="conteudo__botoes">                
+                <button onclick="criptografar()" class="botao__criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="botao__descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <div class="campo__criptografia" id="campo__criptografia">
+            <img id="imagem" src="assets/image-cript.png" alt="imagem criptografia">
+            <h3 id="campo__resultado">Nenhuma mensagem encontrada</h3>
+            <p id="campo__espaco">Digite um texto que você deseja criptografar ou descriptografar</p>
+        </div>
+    </main>
+    <footer>Desenvolvido por Victoria Tonini - 2024</footer>
+    <script src="app.js"></script>
+</body>
+</html>
